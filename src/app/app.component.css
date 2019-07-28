@@ -1,0 +1,74 @@
+/* styles for horizontal and vertical scroll */
+th, td {
+    min-width: 350px;
+    padding: 10px;
+}
+
+#constrainer2 {
+    width: 1113px;
+    overflow-x: scroll;
+    margin-left: auto;
+    margin-right: auto;
+}
+#constrainer2 table {
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+#constrainer2 tbody {
+    overflow-x: hidden;
+    display: block;
+    height: 424px;
+}
+#constrainer2 thead {
+    display: table-row;
+    overflow-x: hidden;
+}
+
+#constrainer2 tfoot tr td {
+    padding-top: 20px;
+    width: 1092px;
+}
+
+#constrainer2 tfoot tr {
+    width: 100%;
+    position: fixed; 
+}
+/* basic styling */
+.appfont {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#constrainer2 {
+    border: 1px solid lightgrey;
+}
+table {
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid lightgray;
+}
+th {
+    background-color: rgb(152, 214, 255);
+    border-width: 1px;
+}
+td {
+    border-width: 1px;
+}
+tr:first-child td {
+    border-top-width: 0;
+}
+tr:nth-child(even) {
+    background-color: rgb(229, 245, 250);
+}
+
+.seldiv {
+    margin-left: 203px;
+}
+  
+.sel {
+    width: 50px;
+    height: 30px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    overflow: hidden;
+  }

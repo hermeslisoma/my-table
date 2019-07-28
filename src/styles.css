@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+.button {
+    background-color: rgb(152, 214, 255);
+    border: none;
+    color: black;
+    padding: 5px 7px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+.button:hover {
+    background-color: rgb(72, 180, 252);
+    color: black;
+}
+
+.button:disabled{
+  background-color: rgb(213, 236, 252);
+  color: black;
+}
